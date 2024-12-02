@@ -1,4 +1,4 @@
-import logoGoro from '/git add <div className=""></div>public/logo goro 1.png'
+import logoGoro from '/public/logo goro 1.png'
 import './App.css'
 
 function App() {
