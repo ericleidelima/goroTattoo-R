@@ -1,4 +1,4 @@
-
+import logoGoro from '/git add <div className=""></div>public/logo goro 1.png'
 import './App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       <main>
 
 <picture>
-    <img className="arac" src="./public/logo goro 1.png" alt="aranha viuva negra" />
+    <img className="arac" src={logoGoro} alt="aranha viuva negra" />
 </picture>
 
 <aside>
