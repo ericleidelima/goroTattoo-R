@@ -8,7 +8,7 @@ function App() {
       <main>
 
 <picture>
-    <img className="arac" src="https://i.pinimg.com/originals/6c/22/97/6c22972524a77553fd05fc3b2dfb1c7b.jpg" alt="aranha viuva negra" />
+    <img className="arac" src="src/assets/imagens/icons/LogoF.png" alt="aranha viuva negra" />
 </picture>
 
 <aside>
