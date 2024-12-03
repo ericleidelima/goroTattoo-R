@@ -10,7 +10,7 @@ const Header = () => {
          </nav>
          <div className="logos">
                 <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
-                   <img src={LogoI} alt=""  title="Instagram" />
+                   <img src={LogoI} alt="Instagram"  title="Instagram" />
                 </a>
 
                 <a href="https://www.facebook.com/ericlei.lima.9/photos" target="_blank">
