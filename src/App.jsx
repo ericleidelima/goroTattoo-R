@@ -1,6 +1,7 @@
 import logoGoro from "/public/logo goro 1.png";
 
 import Header from "./header";
+import Footer from "./Footer"
 import "./App.css";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           </div>
         </aside>
       </main>
+      <Footer />
     </>
   );
 }
