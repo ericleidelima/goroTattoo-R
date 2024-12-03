@@ -1,12 +1,12 @@
-import Navegacao from "./Navegacao";
 import Footer from "../Footer";
+import Header from "../header";
 
 import logoGoro from "/public/logo goro 1.png";
 
 const Home = () => {
   return (
     <>
-      <Navegacao />
+      <Header />
       <main>
         <picture>
           <img className="arac" src={logoGoro} alt="aranha viuva negra" />
@@ -18,7 +18,7 @@ const Home = () => {
             <p>Alguns dos trabalhos realizados.</p>
           </div>
           <div className="painel">
-            <a href="estilosTattoo.html">ESTILOS DE TATTOO</a>
+            <a href="/EstilosTattoo">ESTILOS DE TATTOO</a>
             <p>Os estilos mais populares.</p>
           </div>
           <div className="painel">

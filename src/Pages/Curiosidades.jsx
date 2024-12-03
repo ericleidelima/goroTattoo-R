@@ -1,9 +1,6 @@
-import Navegacao from "./Navegacao";
-
 const Curiosidades = () => {
   return (
     <>
-      <Navegacao />
       <main>
         <article>
           <h1>Curiosidades</h1>
