@@ -18,7 +18,7 @@ const Home = () => {
             <p>Alguns dos trabalhos realizados.</p>
           </div>
           <div className="painel">
-            <a href="/EstilosTattoo">ESTILOS DE TATTOO</a>
+            <a href="/Pages/EstilosTattoo">ESTILOS DE TATTOO</a>
             <p>Os estilos mais populares.</p>
           </div>
           <div className="painel">
