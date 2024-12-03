@@ -1,44 +1,29 @@
-import logoGoro from "/public/logo goro 1.png";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from "./header";
-import Footer from "./Footer"
-import "./App.css";
+import Home from "/src/Pages/Home";
+//import Galeria from "./Pages/Galeria";
+//import Estilos from "./Pages/Estilos";
+//import Curiosidades from "/Pages/Curiosidades";
+import Navegacao from "/src/Pages/Navegacao"
+//import Promo from "./Pages/Promo";
+//import Modelo from "./Pages/Modelo";
 
 function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <picture>
-          <img className="arac" src={logoGoro} alt="aranha viuva negra" />
-        </picture>
-
-        <aside>
-          <div className="painel">
-            <a href="galeria.html">GALERIA</a>
-            <p>Alguns dos trabalhos realizados.</p>
-          </div>
-          <div className="painel">
-            <a href="estilosTattoo.html">ESTILOS DE TATTOO</a>
-            <p>Os estilos mais populares.</p>
-          </div>
-          <div className="painel">
-            <a href="modelo.html">MODELO</a>
-            <p>Seja modelo para um de nossos projetos.</p>
-          </div>
-          <div className="painel">
-            <a href="relampago.html">RELÂMPAGO</a>
-            <p>Oferta valida por pouco tempo.</p>
-          </div>
-          <div className="painel">
-            <a href="construcao.html">LOCALIZAÇÃO, REGRAS, ETC</a>
-            <p> Desenhos pequenos.</p>
-          </div>
-        </aside>
-      </main>
-      <Footer />
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          {/*<Route exact path="Galeria" element={<Galeria />} />*/}
+          {/*<Route exact path="Estilos" element={<Estilos />} />*/}
+          <Route exact path="Navegacao" element={<Navegacao />} />
+          {/*<Route exact path="Curiosidades" element={<Curiosidades />} />*/}
+          {/* <Route exact path="Modelo" element={<Modelo />} />*/}
+          {/* <Route exact path="Promo" element={<Promo />} />*/}
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
-}
+};
 
 export default App;
