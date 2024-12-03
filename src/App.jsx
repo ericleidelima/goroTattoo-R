@@ -14,7 +14,7 @@ function App() {
 
         <aside>
           <div className="painel">
-            <a href="galeria.html">GALERIAaaaa</a>
+            <a href="galeria.html">GALERIA</a>
             <p>Alguns dos trabalhos realizados.</p>
           </div>
           <div className="painel">
