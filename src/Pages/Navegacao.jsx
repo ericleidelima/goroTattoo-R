@@ -13,7 +13,7 @@ const Navegacao = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink exact activeStyle={linkCorrente} to="Pages/Curiosidades">
+          <NavLink exact activeStyle={linkCorrente} to="/Pages/Curiosidades">
             Curiosidades
           </NavLink>
         </li>
