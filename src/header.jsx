@@ -1,6 +1,6 @@
-import LogoI from "/src/assets/imagens/icons/logoInstag.png";
-import LogoF from "/src/assets/imagens/icons/logoFace.png";
-import LogoW from "/src/assets/imagens/icons/logoWhats.png";
+import LogoI from "/public/icons/logoInstag.png";
+import LogoF from "/public/icons/logoFace.png";
+import LogoW from "/public/icons/logoWhats.png";
 
 const Header = () => {
   return (

@@ -1,12 +1,16 @@
+import Header from "../header";
+import Footer from "../Footer";
+
 const Curiosidades = () => {
   return (
     <>
+        <Header />
       <main>
         <article>
           <h1>Curiosidades</h1>
           <hr />
           <h2>A história da máquina de tatuagem</h2>
-          <img src="assets/imagens/icons/Thomas edisom.png" />
+          <img src="/public/imagens/Thomas edisom.png" />
 
           <p>
             Mais e mais pessoas estão fazendo tatuagens hoje, e elas não
@@ -52,7 +56,7 @@ const Curiosidades = () => {
 
           <video id="video" controls autoPlay muted loop>
             <source
-              src="assets/A.videos/Tattoo Ink Needle in Super Slow.mp4.mp4"
+              src="/public/videos/Tattoo Ink Needle in Super Slow.mp4.mp4"
               type="video/mp4"
             />
             <p>Desculpe, seu navegador não supota os fosmatos de video.</p>
@@ -71,6 +75,7 @@ const Curiosidades = () => {
           </p>
         </article>
       </main>
+       <Footer />
     </>
   );
 };
