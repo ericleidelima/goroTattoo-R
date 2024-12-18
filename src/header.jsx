@@ -12,14 +12,14 @@ const Header = () => {
       </nav>
       <div className="logos">
         <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
-          <img  alt="Instagram" title="Instagram" />
+          <img src="public/icons/logoInstag.png" alt="Instagram" title="Instagram" />
         </a>
 
         <a
           href="https://www.facebook.com/ericlei.lima.9/photos"
           target="_blank"
         >
-          <img  alt="" title="Facebook" />
+          <img alt="" title="Facebook" />
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
           <img  alt="" title="WhatsApp" />
