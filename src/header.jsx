@@ -17,7 +17,7 @@ const Header = () => {
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
           target="_blank">
-          <img src="public/icons/logoFace.png" alt="" title="Facebook" />
+          <img src="public/imagens/logoFace.png" alt="" title="Facebook" />
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
           <img src="public/icons/logoWhats.png" alt="" title="WhatsApp" />
