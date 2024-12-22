@@ -12,7 +12,7 @@ const Header = () => {
       </nav>
       <div className="logos">
         <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
-          {<img src="public/Icons/LogoInstag.ico" alt="" title="" />}
+          {<img src="public/Icons/LogoInstag.jpg" alt="" title="" />}
         </a>
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
