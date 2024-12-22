@@ -12,12 +12,12 @@ const Header = () => {
       </nav>
       <div className="logos">
         <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
-          <img src="" alt="Instagram" title="Instagram" />
+          <img src="/public/Imagens/LogoInstag.jpg" alt="Instagram" title="Instagram" />
         </a>
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
           target="_blank">
-          <img src="/public/Icons/LogoFace.png" alt="iconeFace" title="Facebook" />
+          <img src="" alt="iconeFace" title="Facebook" />
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
           <img src="" alt="" title="WhatsApp" />
