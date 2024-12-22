@@ -12,7 +12,7 @@ const Header = () => {
       </nav>
       <div className="logos">
         <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
-          {<img src={LogoI} alt="" title="" />}
+          {<img src={LogoI} alt="instagram" title="" />}
         </a>
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
@@ -20,7 +20,7 @@ const Header = () => {
           {<img src="public/Icons/LogoFace.ico" title="Facebook" />}
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
-          <img src="public/Icons/LogoWhats.ico" alt="" title="WhatsApp" />
+          <img src="public/Icons/LogoWhats.ico" alt="Whatssapp" title="WhatsApp" />
         </a>
       </div>
     </header>
