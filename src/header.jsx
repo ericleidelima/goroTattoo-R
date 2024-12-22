@@ -20,7 +20,7 @@ const Header = () => {
           {<img src={LogoF} title="Facebook" />}
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
-          <img src={LogoW } alt="Whatssapp" title="WhatsApp" />
+          {<img src={LogoW} alt="Whatssapp" title="WhatsApp" />}
         </a>
       </div>
     </header>
