@@ -1,4 +1,4 @@
-//import LogoI from "/public/Icons/LogoInstag.ico";
+import LogoI from "/public/Icons/LogoInstag.ico";
 //import LogoF from "/public/Icons/LogoFace.ico";
 //import LogoW from "/public/Icons/LogoWhats.ico";
 
@@ -12,7 +12,7 @@ const Header = () => {
       </nav>
       <div className="logos">
         <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
-          {<img src="public/Icons/LogoInstag.jpg" alt="" title="" />}
+          {<img src={LogoI} alt="" title="" />}
         </a>
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
