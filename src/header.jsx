@@ -1,5 +1,5 @@
 import LogoI from "/public/Icons/LogoInstag.jpg";
-//import LogoF from "/public/Icons/LogoFace.ico";
+import LogoF from "/public/Icons/LogoFace.jpg";
 //import LogoW from "/public/Icons/LogoWhats.ico";
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
           target="_blank">
-          {<img src="public/Icons/LogoFace.ico" title="Facebook" />}
+          {<img src={LogoF} title="Facebook" />}
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
           <img src="public/Icons/LogoWhats.ico" alt="Whatssapp" title="WhatsApp" />
