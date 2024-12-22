@@ -1,7 +1,7 @@
 import Footer from "../Footer";
 import Header from "../header";
 
-import logoGoro from "/public/Imagens/Logo-goro-1.jpg";
+import logoGoro from "/public/Imagens/LogoGoro_1.jpg";
 
 const Home = () => {
   return (
