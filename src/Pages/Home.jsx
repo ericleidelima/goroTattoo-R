@@ -1,5 +1,5 @@
 import Footer from "../Footer";
-import Header from "/src/Header";
+import Header from "../header";
 
 import logoGoro from "/public/Imagens/Logo-goro-1.jpg";
 
