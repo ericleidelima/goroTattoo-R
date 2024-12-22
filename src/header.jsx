@@ -17,10 +17,10 @@ const Header = () => {
 
         <a href="https://www.facebook.com/ericlei.lima.9/photos"
           target="_blank">
-          <img src="src/assets/logoFace.png" alt="iconeFace" title="Facebook" />
+          <img src="/public/Icons/LogoFace.png" alt="iconeFace" title="Facebook" />
         </a>
         <a href="https://wa.me/5541996607553" target="_blank">
-          <img src="public/icons/logoWhats.png" alt="" title="WhatsApp" />
+          <img src="" alt="" title="WhatsApp" />
         </a>
       </div>
     </header>
