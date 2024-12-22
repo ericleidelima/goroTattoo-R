@@ -1,5 +1,5 @@
 import LogoI from "/public/Icons/LogoInstag.jpg";
-import LogoF from "/public/Icons/logoFace.jpg";
+import LogoF from "/public/Icons/logoFace.iconeFace.ico";
 //import LogoW from "/public/icons/logoWhats.png";
 
 const Header = () => {
