@@ -1,4 +1,4 @@
-import LogoI from "/public/Icons/LogoInstag.png";
+import LogoI from "/public/Icons/LogoInstag.jpg";
 //import LogoF from "/public/icons/logoFace.png";
 //import LogoW from "/public/icons/logoWhats.png";
 
