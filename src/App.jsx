@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 //import Galeria from "./Pages/Galeria";
-import EstilosTattoo from "/src/Pages/EstilosTattoo";
+//import EstilosTattoo from "/src/Pages/EstilosTattoo";
 import Curiosidades from "/src/Pages/Curiosidades";
 //import Navegacao from "./Pages/Navegacao"
 //import Promo from "./Pages/Promo";
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           
-          <Route exact path="Pages/EstilosTattoo" element={<EstilosTattoo />} />
+          {/*<Route exact path="Pages/EstilosTattoo" element={<EstilosTattoo />} />*/}
           {/*<Route exact path="Galeria" element={<Galeria />} />*/}
           {/*<Route exact path="/Pages/Navegacao" element={<Navegacao />} />*/}
           <Route exact path="Pages/Curiosidades" element={<Curiosidades />} />
