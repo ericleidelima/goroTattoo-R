@@ -7,8 +7,8 @@ const Header = () => {
     <header>
       <nav>
         <a href="/">Home</a>
-        <a href="disponiveis.html">Disponiveis</a>
-        <a href="/src/Pages/Curiosidades.html">Curiosidades</a>
+        <a href="disponiveis">Disponiveis</a>
+        <a href="/Pages/Curiosidades">Curiosidades</a>
       </nav>
       <div className="logos">
         <a href="https://www.instagram.com/goro_tattooo/" target="_blank">
