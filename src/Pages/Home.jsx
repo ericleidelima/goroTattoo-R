@@ -1,5 +1,5 @@
 import Footer from "../Footer";
-import Header from "../header";
+import Header from "../Header";
 
 import logoGoro from "/public/Imagens/LogoGoro_1.jpg";
 
@@ -18,7 +18,7 @@ const Home = () => {
             <p>Alguns dos trabalhos realizados.</p>
           </div>
           <div className="painel">
-            <a href="/Pages/EstilosTattoo">ESTILOS DE TATTOO</a>
+            <a href="Pages/EstilosTattoo">ESTILOS DE TATTOO</a>
             <p>Os estilos mais populares.</p>
           </div>
           <div className="painel">
