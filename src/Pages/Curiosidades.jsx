@@ -1,8 +1,7 @@
 import Header from "../header";
 import Footer from "../Footer";
 
-import imgThomas from "/public/imagens/Thomas edisom.png"
-
+import imgThomas from "/public/imagens/Thomas edisom.jpg"
 
 const Curiosidades = () => {
   return (
