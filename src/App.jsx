@@ -14,11 +14,10 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          
           {/*<Route exact path="Pages/EstilosTattoo" element={<EstilosTattoo />} />*/}
           {/*<Route exact path="Galeria" element={<Galeria />} />*/}
           {/*<Route exact path="/Pages/Navegacao" element={<Navegacao />} />*/}
-          <Route  path="Pages/Curiosidades" element={<Curiosidades />} />
+          <Route exact path="Pages/Curiosidades" element={<Curiosidades />} />
           {/* <Route exact path="Modelo" element={<Modelo />} />*/}
           {/* <Route exact path="Promo" element={<Promo />} />*/}
         </Routes>
