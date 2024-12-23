@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 //import Galeria from "./Pages/Galeria";
 import EstilosTattoo from "/src/Pages/EstilosTattoo";
-import Curiosidades from "./Pages/Curiosidades";
+import Curiosidades from "/src/Pages/Curiosidades";
 //import Navegacao from "./Pages/Navegacao"
 //import Promo from "./Pages/Promo";
 //import Modelo from "./Pages/Modelo";
@@ -17,7 +17,7 @@ function App() {
           {/*<Route exact path="Galeria" element={<Galeria />} />*/}
           <Route exact path="/Pages/EstilosTattoo" element={<EstilosTattoo />} />
           {/*<Route exact path="/Pages/Navegacao" element={<Navegacao />} />*/}
-          <Route exact path="Pages/Curiosidades" element={<Curiosidades />} />
+          <Route exact path="/Pages/Curiosidades" element={<Curiosidades />} />
           {/* <Route exact path="Modelo" element={<Modelo />} />*/}
           {/* <Route exact path="Promo" element={<Promo />} />*/}
         </Routes>
