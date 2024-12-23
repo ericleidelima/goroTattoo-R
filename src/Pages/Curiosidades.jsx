@@ -8,7 +8,7 @@ const Curiosidades = () => {
       <main>
         <article>
           <h1>Curiosidades</h1>
-          <hr/>
+          <hr />
           <h2>A história da máquina de tatuagem</h2>
           <img src="/public/imagens/Thomas edisom.png" />
 

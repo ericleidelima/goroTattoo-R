@@ -1,12 +1,17 @@
+import Header from "../header";
+import Footer from "../Footer"
+
 const EstilosTattoo = () => {
   return (
+    <>
+    <Header/>
     <main>
       <article>
         <h1>Estilos de tattoo</h1>
         <h1>Preto e cinza</h1>
         <hr />
         <img
-          src="assets/imagens/icons/tattooRealista.jpg"
+          src="/src/assets/tattooRealista.jpg"
           alt="tattoo realista"
         />
 
@@ -35,7 +40,7 @@ const EstilosTattoo = () => {
         <h2>Rastelado</h2>
 
         <img
-          src="assets/imagens/icons/tattooRastelada.jpg"
+          src="/src/assets/tattooRastelada.jpg"
           alt="tattoos rastelada"
         />
 
@@ -77,7 +82,7 @@ const EstilosTattoo = () => {
         <h2>Pontilhismo</h2>
 
         <img
-          src="assets/imagens/icons/tattooleãoPontilhismo.jpg"
+          src="/src/assets/tattooleãoPontilhismo.jpg"
           alt="tattoos pontilhismo"
         />
 
@@ -95,6 +100,10 @@ const EstilosTattoo = () => {
         </p>
       </article>
     </main>
+    <Footer/>
+    </>
+    
   );
 };
+
 export default EstilosTattoo;
