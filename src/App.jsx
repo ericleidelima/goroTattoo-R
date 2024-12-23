@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter , Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home";
 //import Galeria from "./Pages/Galeria";
@@ -18,7 +18,7 @@ function App() {
           {/*<Route exact path="Pages/EstilosTattoo" element={<EstilosTattoo />} />*/}
           {/*<Route exact path="Galeria" element={<Galeria />} />*/}
           {/*<Route exact path="/Pages/Navegacao" element={<Navegacao />} />*/}
-          <Route exact path="Pages/Curiosidades" element={<Curiosidades />} />
+          <Route  path="Pages/Curiosidades" element={<Curiosidades />} />
           {/* <Route exact path="Modelo" element={<Modelo />} />*/}
           {/* <Route exact path="Promo" element={<Promo />} />*/}
         </Routes>
