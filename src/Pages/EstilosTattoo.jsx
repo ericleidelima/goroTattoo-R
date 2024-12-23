@@ -10,7 +10,7 @@ const EstilosTattoo = () => {
           <h1>Estilos de tattoo</h1>
           <h1>Preto e cinza</h1>
           <hr />
-         {/* <img src="/src/assets/tattooRealista.jpg" alt="tattoo realista" />*/}
+         <img src="/src/assets/tattooRealista.jpg" alt="tattoo realista" />
 
           <p>
             O estilo Black and Grey ou Preto e Cinza é um dos estilos mais
@@ -38,7 +38,7 @@ const EstilosTattoo = () => {
           <hr />
           <h2>Rastelado</h2>
 
-          {/*<img src="/src/assets/tattooRastelada.jpg" alt="tattoos rastelada" />*/}
+          <img src="/src/assets/tattooRastelada.jpg" alt="tattoos rastelada" />
 
           <p>
             Tatuagens rasteladas são conhecidas também como whip shading, que
@@ -77,10 +77,10 @@ const EstilosTattoo = () => {
           <hr />
           <h2>Pontilhismo</h2>
 
-         {/*} <img
+         <img
             src="/src/assets/tattooleãoPontilhismo.jpg"
             alt="tattoos pontilhismo"
-          />*/}
+          />
 
           <p>
             A tatuagem pontilhismo traz arte e estilo para o corpo de quem a
