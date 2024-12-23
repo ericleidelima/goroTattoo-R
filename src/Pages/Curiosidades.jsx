@@ -1,6 +1,9 @@
 import Header from "../header";
 import Footer from "../Footer";
 
+import imgThomas from "/public/imagens/Thomas edisom.png"
+
+
 const Curiosidades = () => {
   return (
     <>
@@ -10,7 +13,7 @@ const Curiosidades = () => {
           <h1>Curiosidades</h1>
           <hr />
           <h2>A história da máquina de tatuagem</h2>
-          <img src="/public/imagens/Thomas edisom.png" />
+          <img src={imgThomas}/>
 
           <p>
             Mais e mais pessoas estão fazendo tatuagens hoje, e elas não
