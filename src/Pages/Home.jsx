@@ -1,4 +1,4 @@
-import Header from "../Header";
+import Header from "../header";
 import Footer from "../Footer";
 
 import logoGoro from "/public/Imagens/LogoGoro_1.jpg";
@@ -9,7 +9,7 @@ const Home = () => {
       <Header />
       <main>
         <picture>
-         { <img className="arac" src={logoGoro} alt="aranha viuva negra" />}
+          {<img className="arac" src={logoGoro} alt="aranha viuva negra" />}
         </picture>
 
         <aside>
