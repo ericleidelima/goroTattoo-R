@@ -22,7 +22,7 @@ const Home = () => {
             <p>Os estilos mais populares.</p>
           </div>
           <div className="painel">
-            <a href="modelo.html">MODELO</a>
+            <a href="Pages/Modelo">MODELO</a>
             <p>Seja modelo para um de nossos projetos.</p>
           </div>
           <div className="painel">

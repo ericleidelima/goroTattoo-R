@@ -4,9 +4,10 @@ import Home from "./Pages/Home";
 //import Galeria from "./Pages/Galeria";
 import EstilosTattoo from "/src/Pages/EstilosTattoo";
 import Curiosidades from "/src/Pages/Curiosidades";
+import Modelo from "/src/Pages/Modelo";
 //import Navegacao from "./Pages/Navegacao"
 //import Promo from "./Pages/Promo";
-//import Modelo from "./Pages/Modelo";
+
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
           {/*<Route exact path="Galeria" element={<Galeria />} />*/}
           {/*<Route exact path="/Pages/Navegacao" element={<Navegacao />} />*/}
           <Route exact path="Pages/Curiosidades" element={<Curiosidades />} />
-          {/* <Route exact path="Modelo" element={<Modelo />} />*/}
+          <Route exact path="Pages/Modelo" element={<Modelo />} />
           {/* <Route exact path="Promo" element={<Promo />} />*/}
         </Routes>
       </BrowserRouter>
