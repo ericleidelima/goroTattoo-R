@@ -2,8 +2,8 @@ import Header from "../header";
 import Footer from "../Footer";
 
 import tattooRealista from "/src/assets/tattooRealista.jpg"
-//import tattooRastelada from "/src/assets/tattooRastelada.jpg"
-//import tattooPontilhismo from "/src/assets/tattooRealista.jpg"
+import tattooRastelada from "/src/assets/tattooRastelada.jpg"
+import tattooPontilhismo from "/src/assets/tattooRealista.jpg"
 
 const EstilosTattoo = () => {
   return (
@@ -42,7 +42,7 @@ const EstilosTattoo = () => {
           <hr />
           <h2>Rastelado</h2>
 
-          <img src="/src/assets/tattooRastelada.jpg" alt="tattoos rastelada" />
+          <img src={tattooRastelada} alt="tattoos rastelada" />
 
           <p>
             Tatuagens rasteladas são conhecidas também como whip shading, que
@@ -82,7 +82,7 @@ const EstilosTattoo = () => {
           <h2>Pontilhismo</h2>
 
          <img
-            src="/src/assets/tattooleãoPontilhismo.jpg"
+            src={tattooPontilhismo}
             alt="tattoos pontilhismo"
           />
 
