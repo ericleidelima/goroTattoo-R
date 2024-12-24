@@ -1,6 +1,10 @@
 import Header from "../header";
 import Footer from "../Footer";
 
+import tattooRealista from "/src/assets/tattooRealista.jpg"
+//import tattooRastelada from "/src/assets/tattooRastelada.jpg"
+//import tattooPontilhismo from "/src/assets/tattooRealista.jpg"
+
 const EstilosTattoo = () => {
   return (
     <>
@@ -10,7 +14,7 @@ const EstilosTattoo = () => {
           <h1>Estilos de tattoo</h1>
           <h1>Preto e cinza</h1>
           <hr />
-         <img src="/src/assets/tattooRealista.jpg" alt="tattoo realista" />
+         <img src={tattooRealista} alt="tattoo realista" />
 
           <p>
             O estilo Black and Grey ou Preto e Cinza é um dos estilos mais
