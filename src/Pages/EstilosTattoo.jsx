@@ -3,7 +3,7 @@ import Footer from "../Footer";
 
 import tattooRealista from "/src/assets/tattooRealista.jpg"
 import tattooRastelada from "/src/assets/tattooRastelada.jpg"
-import tattooPontilhismo from "/src/assets/tattooRealista.jpg"
+import tattooPontilhismo from "/src/assets/tattooPontilhismo.jpg"
 
 const EstilosTattoo = () => {
   return (
