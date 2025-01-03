@@ -14,7 +14,7 @@ const Home = () => {
 
         <aside>
           <div className="painel">
-            <a href="galeria.html">GALERIA</a>
+            <a href="Pages/Galeria">GALERIA</a>
             <p>Alguns dos trabalhos realizados.</p>
           </div>
           <div className="painel">
