@@ -8,20 +8,20 @@ const Galeria = () => {
       <h1>Galeria</h1>
       <main>
         <div className="gallery-container">
-          <a href="assets/imagens/img/20.jpg" className="gallery-items">
-            <img src="assets/imagens/img/20.jpg" alt="" />
+          <a href="/public/Imagens/20.png" className="gallery-items">
+            <img src="/public/Imagens/20.png" alt="" />
           </a>
 
-          <a href="assets/imagens/img/21.jpg" className="gallery-items">
-            <img src="assets/imagens/img/21.jpg" alt="" />
+          <a href="/public/Imagens/21.png" className="gallery-items">
+            <img src="/public/Imagens/21.png" alt="" />
           </a>
 
-          <a href="assets/imagens/img/22.jpg" className="gallery-items">
-            <img src="assets/imagens/img/22.jpg" alt="" />
+          <a href="/public/Imagens/22.png" className="gallery-items">
+            <img src="/public/Imagens/22.png" alt="" />
           </a>
 
-          <a href="assets/imagens/img/23.png" className="gallery-items">
-            <img src="assets/imagens/img/23.png" alt="" />
+          <a href="/public/Imagens/20.png/23.png" className="gallery-items">
+            <img src="/public/Imagens/20.png/23.png" alt="" />
           </a>
 
           <a href="assets/imagens/img/24.png" className="gallery-items">
@@ -56,13 +56,13 @@ const Galeria = () => {
             <img src="assets/imagens/img/31.png" alt="" />
           </a>
 
-          <a href="assets/imagens/img/32.png" className="gallery-items">
+          <a href="assets/imagens/img/32.psng" className="gallery-items">
             <img src="assets/imagens/img/32.png" alt="" />
           </a>
         </div>
         <p>
           Todos os projetos apresentados nessa galeria foram realizados pelo
-          profissional, "ERICLEI DE LIMA". 
+          profissional, &quot;ERICLEI DE LIMA&quot;.
         </p>
       </main>
 
