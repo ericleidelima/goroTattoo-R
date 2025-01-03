@@ -1,6 +1,8 @@
 import Header from "../header";
 import Footer from "../Footer";
 
+import img1 from "/public/Imagens/20.png"
+
 const Galeria = () => {
   return (
     <>
@@ -8,8 +10,8 @@ const Galeria = () => {
       <h1>Galeria</h1>
       <main>
         <div className="gallery-container">
-          <a href="/public/Imagens/20.png" className="gallery-items">
-            <img src="/public/Imagens/20.png" alt="" />
+          <a href={img1} className="gallery-items">
+            <img src={img1} alt="" />
           </a>
 
           <a href="/public/Imagens/21.png" className="gallery-items">
