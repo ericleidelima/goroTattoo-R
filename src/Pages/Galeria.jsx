@@ -1,7 +1,21 @@
 import Header from "../header";
 import Footer from "../Footer";
 
-import img1 from "/public/Imagens/20.png"
+import img1 from "/public/Imagens/20.png";
+import img2 from "/public/Imagens/21.png";
+import img3 from "/public/Imagens/22.png";
+import img4 from "/public/Imagens/23.jpg";
+import img5 from "/public/Imagens/24.png";
+import img6 from "/public/Imagens/25.jpg";
+import img7 from "/public/Imagens/26.jpg";
+import img8 from "/public/Imagens/27.jpg";
+import img9 from "/public/Imagens/28.jpg";
+import img10 from "/public/Imagens/29.jpg";
+import img11 from "/public/Imagens/30.png";
+
+import img12 from "/public/Imagens/20.png";
+import img13 from "/public/Imagens/20.png";
+import img14 from "/public/Imagens/20.png";
 
 const Galeria = () => {
   return (
@@ -13,53 +27,44 @@ const Galeria = () => {
           <a href={img1} className="gallery-items">
             <img src={img1} alt="" />
           </a>
-
-          <a href="/public/Imagens/21.png" className="gallery-items">
-            <img src="/public/Imagens/21.png" alt="" />
+          <a href={img2} className="gallery-items">
+            <img src={img2} alt="" />
           </a>
-
-          <a href="/public/Imagens/22.png" className="gallery-items">
-            <img src="/public/Imagens/22.png" alt="" />
+          <a href={img3} className="gallery-items">
+            <img src={img3} alt="" />
           </a>
-
-          <a href="/public/Imagens/20.png/23.png" className="gallery-items">
-            <img src="/public/Imagens/20.png/23.png" alt="" />
+          <a href={img4} className="gallery-items">
+            <img src={img4} alt="" />
           </a>
-
-          <a href="assets/imagens/img/24.png" className="gallery-items">
-            <img src="assets/imagens/img/24.png" alt="" />
+          <a href={img5} className="gallery-items">
+            <img src={img5} alt="" />
           </a>
-
-          <a href="assets/imagens/img/25.jpg" className="gallery-items">
-            <img src="assets/imagens/img/25.jpg" alt="" />
+          <a href={img6} className="gallery-items">
+            <img src={img6} alt="" />
           </a>
-
-          <a href="assets/imagens/img/26.jpg" className="gallery-items">
-            <img src="assets/imagens/img/26.jpg" alt="" />
+          <a href={img7} className="gallery-items">
+            <img src={img7} alt="" />
           </a>
-
-          <a href="assets/imagens/img/27.png" className="gallery-items">
-            <img src="assets/imagens/img/27.png" alt="" />
+          <a href={img8} className="gallery-items">
+            <img src={img8} alt="" />
           </a>
-
-          <a href="assets/imagens/img/28.jpg" className="gallery-items">
-            <img src="assets/imagens/img/28.jpg" alt="" />
+          <a href={img9} className="gallery-items">
+            <img src={img9} alt="" />
           </a>
-
-          <a href="assets/imagens/img/29.jpg" className="gallery-items">
-            <img src="assets/imagens/img/29.jpg" alt="" />
+          <a href={img10} className="gallery-items">
+            <img src={img10} alt="" />
           </a>
-
-          <a href="assets/imagens/img/30.jpg" className="gallery-items">
-            <img src="assets/imagens/img/30.jpg" alt="" />
+          <a href={img11} className="gallery-items">
+            <img src={img11} alt="" />
           </a>
-
-          <a href="assets/imagens/img/31.png" className="gallery-items">
-            <img src="assets/imagens/img/31.png" alt="" />
+          <a href={img12} className="gallery-items">
+            <img src={img12} alt="" />
           </a>
-
-          <a href="assets/imagens/img/32.psng" className="gallery-items">
-            <img src="assets/imagens/img/32.png" alt="" />
+          <a href={img13} className="gallery-items">
+            <img src={img13} alt="" />
+          </a>
+          <a href={img14} className="gallery-items">
+            <img src={img14} alt="" />
           </a>
         </div>
         <p>
