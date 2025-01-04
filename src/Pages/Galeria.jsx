@@ -7,15 +7,16 @@ import img3 from "/public/Imagens/22.png";
 import img4 from "/public/Imagens/23.jpg";
 import img5 from "/public/Imagens/24.png";
 import img6 from "/public/Imagens/25.jpg";
-import img7 from "/public/Imagens/26.jpg";
+import img7 from "/public/Imagens/26.png";
 import img8 from "/public/Imagens/27.jpg";
 import img9 from "/public/Imagens/28.jpg";
 import img10 from "/public/Imagens/29.jpg";
 import img11 from "/public/Imagens/30.png";
+import img12 from "/public/Imagens/31.png";
+import img13 from "/public/Imagens/32.png";
+import img14 from "/public/Imagens/33.png";
+import img15 from "/public/Imagens/34.png";
 
-import img12 from "/public/Imagens/20.png";
-import img13 from "/public/Imagens/20.png";
-import img14 from "/public/Imagens/20.png";
 
 const Galeria = () => {
   return (
@@ -65,6 +66,9 @@ const Galeria = () => {
           </a>
           <a href={img14} className="gallery-items">
             <img src={img14} alt="" />
+          </a>
+          <a href={img15} className="gallery-items">
+            <img src={img15} alt="" />
           </a>
         </div>
         <p>
