@@ -7,6 +7,8 @@ import Curiosidades from "/src/Pages/Curiosidades";
 import Modelo from "/src/Pages/Modelo";
 //import Navegacao from "./Pages/Navegacao"
 //import Promo from "./Pages/Promo";
+import Disponiveis from "/src/Pages/Disponiveis";
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route exact path="Pages/Curiosidades" element={<Curiosidades />} />
           <Route exact path="Pages/Modelo" element={<Modelo />} />
           {/* <Route exact path="Promo" element={<Promo />} />*/}
+          <Route exact path="Pages/Disponiveis" element={<Disponiveis />} />
+          
         </Routes>
       </BrowserRouter>
     </div>
