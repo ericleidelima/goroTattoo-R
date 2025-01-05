@@ -9,6 +9,8 @@ import Modelo from "/src/Pages/Modelo";
 //import Promo from "./Pages/Promo";
 import Disponiveis from "/src/Pages/Disponiveis";
 
+import Galer from "/src/Pages/Galer";
+
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
           <Route exact path="Pages/Modelo" element={<Modelo />} />
           {/* <Route exact path="Promo" element={<Promo />} />*/}
           <Route exact path="Pages/Disponiveis" element={<Disponiveis />} />
+
+          <Route exact path="Pages/Galer" element={<Galer />} />
+
           
         </Routes>
       </BrowserRouter>
