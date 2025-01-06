@@ -1,3 +1,5 @@
+import img1 from "/public/Imagens/1.png";
+
 import { useState } from "react";
 
 const App = () => {
@@ -5,12 +7,12 @@ const App = () => {
   const divs = [
     {
       id: 1,
-      image: "/public/Imagens/1.png",
+      image: {img1},
       content: (
         <>
           <p>Nome: Face and Spider</p>
           <img
-            src="/public/Imagens/1.png"
+            src={img1} 
             alt=""
             title="Click para abrir na vitrine"
           />
