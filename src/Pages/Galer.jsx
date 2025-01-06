@@ -7,7 +7,7 @@ const App = () => {
   const divs = [
     {
       id: 1,
-      image: {img1},
+      image: "/public/Imagens/LogoGoro_1.jpg",
       content: (
         <>
           <p>Nome: Face and Spider</p>
