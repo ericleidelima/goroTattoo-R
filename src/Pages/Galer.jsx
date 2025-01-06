@@ -1,69 +1,251 @@
-import Header from "../header";
-import Footer from "../Footer";
-
 import { useState } from "react";
 
-import img1 from "/public/Imagens/1.png";
-import img2 from "/public/Imagens/2.png";
-import img3 from "/public/Imagens/3.png";
-import img4 from "/public/Imagens/4.png";
-import img5 from "/public/Imagens/5.png";
-import img6 from "/public/Imagens/6.png";
-
-const ImageGallery = () => {
-  // Estado para armazenar a imagem selecionada
-  const [selectedImage, setSelectedImage] = useState(null);
-
-  // Lista de imagens
-  const images = [
-    {src: img1,alt: "Imagem 1",text:"Estilo: Black and Gray"},
-    {src: img2,alt: "Imagem 2",},
-    {src: img3,alt: "Imagem 3",},
-    {src: img4,alt: "Imagem 4",},
-    {src: img5,alt: "Imagem 5",},
-    {src: img6,alt: "Imagem 6",},
+const App = () => {
+  // Dados das divs com imagens e conteúdos
+  const divs = [
+    {
+      id: 1,
+      image: "/public/Imagens/1.png",
+      content: (
+        <>
+          <p>Nome: Face and Spider</p>
+          <img
+            src="/public/Imagens/1.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray.</p>
+          <p>Altura Max: 13CM.</p>
+          <p>Valor: 200 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 2,
+      image: "/public/Imagens/2.png",
+      content: (
+        <>
+          <p>Nome: Watercolor cat</p>
+          <img
+            src="/public/Imagens/2.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 14CM</p>
+          <p>Valor: 400 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 3,
+      image: "/public/Imagens/3.png",
+      content: (
+        <>
+          <p>Nome: Face with knife</p>
+          <img
+            src="/public/Imagens/3.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 14CM</p>
+          <p>Valor: 300 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 4,
+      image: "/public/Imagens/4.png",
+      content: (
+        <>
+          <p>Nome: Bird with leaves</p>
+          <img
+            src="/public/Imagens/4.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 18CM</p>
+          <p>Valor: 350 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 5,
+      image: "/public/Imagens/5.png",
+      content: (
+        <>
+          <p>Nome: Gorila and leaves</p>
+          <img
+            src="/public/Imagens/5.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 25 CM</p>
+          <p>Valor: 450 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 6,
+      image: "/public/Imagens/6.png",
+      content: (
+        <>
+          <p>Nome: Fair angel</p>
+          <img
+            src="/public/Imagens/6.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 15CM</p>
+          <p>Valor: 300 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 7,
+      image: "/public/Imagens/7.png",
+      content: (
+        <>
+          <p>Nome: Lion art</p>
+          <img
+            src="/public/Imagens/7.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 18CM</p>
+          <p>Valor: 270 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 8,
+      image: "/public/Imagens/8.png",
+      content: (
+        <>
+          <p>Nome: Flower art</p>
+          <img
+            src="/public/Imagens/8.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 14CM</p>
+          <p>Valor: 200 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 9,
+      image: "/public/Imagens/9.png",
+      content: (
+        <>
+          <p>Nome: Spartan warrior</p>
+          <img
+            src="/public/Imagens/9.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 19CM</p>
+          <p>Valor: 400 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 10,
+      image: "/public/Imagens/10.png",
+      content: (
+        <>
+          <p>Nome: Battle Helmet</p>
+          <img
+            src="/public/Imagens/10.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 18CM</p>
+          <p>Valor: 450 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 11,
+      image: "/public/Imagens/11.png",
+      content: (
+        <>
+          <p>Nome: Skull in pointillism</p>
+          <img
+            src="/public/Imagens/11.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Pontilhismo</p>
+          <p>Altura Max: 13CM</p>
+          <p>Valor: 250 R$</p>
+        </>
+      ),
+    },
+    {
+      id: 12,
+      image: "/public/Imagens/12.png",
+      content: (
+        <>
+          <p>Nome: Hannya and face</p>
+          <img
+            src="/public/Imagens/12.png"
+            alt=""
+            title="Click para abrir na vitrine"
+          />
+          <p>Estilo: Black and Gray</p>
+          <p>Altura Max: 20CM</p>
+          <p>Valor: 700 R$</p>
+        </>
+      ),
+    },
   ];
 
+  // Estado para o conteúdo selecionado
+  const [selectedContent, setSelectedContent] = useState(null);
+
+  // Manipulador de clique na imagem
+  const handleImageClick = (content) => {
+    setSelectedContent(content);
+  };
+  //-----------------------------------------------------------------------------
   return (
     <>
-      <Header />
-      <h1>Estou aqui</h1>
       <h1>Encontre sua proxima tatuagem</h1>
 
-                              {/* Galeria de imagens */}
+      {/* Lista de imagens */}
       <div id="container-principal">
-        <div id="container2" className="box">
-          {images.map((image, index) => (
-            // eslint-disable-next-line react/jsx-key
-            <div id="div1" className="divToMirror">
-              <img
-                key={index}
-                src={image.src}
-                alt={image.alt}
-                style={{ width: "100px", cursor: "pointer" }}
-                onClick={() => setSelectedImage(image)} // Atualiza a imagem selecionad
-              />
-            </div>
-          ))};
-        </div>
-
-                             {/* Exibição da imagem selecionada */}
-        <div id="containerX">
-          {selectedImage ? (
-            
+        <div id="container2" className="divToMirror">
+          {divs.map((div) => (
             <img
-              src={selectedImage.src}
-              alt={selectedImage.alt}
-              style={{ width: "300px" }}
+              key={div.id}
+              src={div.image}
+              alt={`Imagem ${div.id}`}
+              onClick={() => handleImageClick(div.content)}
             />
-          ) : (
-           <img src="https://i.pinimg.com/originals/6c/22/97/6c22972524a77553fd05fc3b2dfb1c7b.jpg" alt="" />
-          )}
+          ))}
+        </div>
+        {/* Div de exibição do conteúdo */}
+        <div id="container3">
+          <div id="containerX">
+            {selectedContent ? (
+              <p>{selectedContent}</p>
+            ) : (
+              <p>Clique em uma imagem para ver o conteúdo.</p>
+            )}
+          </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
 
-export default ImageGallery;
+export default App;

@@ -1,3 +1,4 @@
+
 import img1 from "/public/Imagens/1.png";
 import img2 from "/public/Imagens/2.png";
 import img3 from "/public/Imagens/3.png";
@@ -202,7 +203,7 @@ const Disponiveis = () => {
       </div>
     </div>
         </>
-    )
-}
+    );
+};
 
 export default Disponiveis;
