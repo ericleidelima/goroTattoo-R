@@ -2,6 +2,17 @@ import Header from "../header"
 import Footer from "../Footer";
 
 import img1 from "/public/Imagens/1.png";
+import img2 from "/public/Imagens/2.png";
+import img3 from "/public/Imagens/3.png";
+import img4 from "/public/Imagens/4.png";
+import img5 from "/public/Imagens/5.png";
+import img6 from "/public/Imagens/6.png";
+import img7 from "/public/Imagens/7.png";
+import img8 from "/public/Imagens/8.png";
+import img9 from "/public/Imagens/9.png";
+import img10 from "/public/Imagens/10.png";
+import img11 from "/public/Imagens/11.png";
+import img12 from "/public/Imagens/12.png";
 
 import { useState } from "react";
 
@@ -28,12 +39,12 @@ const App = () => {
     },
     {
       id: 2,
-      image: "/public/Imagens/2.png",
+      image: img2,
       content: (
         <>
           <p>Nome: Watercolor cat</p>
           <img
-            src="/public/Imagens/2.png"
+            src={img2}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -45,12 +56,12 @@ const App = () => {
     },
     {
       id: 3,
-      image: "/public/Imagens/3.png",
+      image: img2,
       content: (
         <>
           <p>Nome: Face with knife</p>
           <img
-            src="/public/Imagens/3.png"
+            src={img2}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -62,12 +73,12 @@ const App = () => {
     },
     {
       id: 4,
-      image: "/public/Imagens/4.png",
+      image: img2,
       content: (
         <>
           <p>Nome: Bird with leaves</p>
           <img
-            src="/public/Imagens/4.png"
+            src={img2}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -79,12 +90,12 @@ const App = () => {
     },
     {
       id: 5,
-      image: "/public/Imagens/5.png",
+      image: img2,
       content: (
         <>
           <p>Nome: Gorila and leaves</p>
           <img
-            src="/public/Imagens/5.png"
+            src={img2}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -96,12 +107,12 @@ const App = () => {
     },
     {
       id: 6,
-      image: "/public/Imagens/6.png",
+      image: img2,
       content: (
         <>
           <p>Nome: Fair angel</p>
           <img
-            src="/public/Imagens/6.png"
+            src={img2}
             alt=""
             title="Click para abrir na vitrine"
           />
