@@ -1,6 +1,8 @@
 import Header from "../header"
 import Footer from "../Footer";
 
+import img1 from "/public/Imagens/1.png";
+
 import { useState } from "react";
 
 const App = () => {
@@ -9,12 +11,12 @@ const App = () => {
     {
       id: 1,
       text : "Nome: Face and Spider",
-      image: "/public/Imagens/1.png",
+      image: img1,
       content: (
         <>
           <p>Nome: Face and Spider</p>
           <img
-            src="/public/Imagens/1.png" 
+            src={img1} 
             alt=""
             title="Click para abrir na vitrine"
           />
