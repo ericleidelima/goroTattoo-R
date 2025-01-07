@@ -56,12 +56,12 @@ const App = () => {
     },
     {
       id: 3,
-      image: img2,
+      image: img3,
       content: (
         <>
           <p>Nome: Face with knife</p>
           <img
-            src={img2}
+            src={img3}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -73,12 +73,12 @@ const App = () => {
     },
     {
       id: 4,
-      image: img2,
+      image: img4,
       content: (
         <>
           <p>Nome: Bird with leaves</p>
           <img
-            src={img2}
+            src={img4}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -90,12 +90,12 @@ const App = () => {
     },
     {
       id: 5,
-      image: img2,
+      image: img5,
       content: (
         <>
           <p>Nome: Gorila and leaves</p>
           <img
-            src={img2}
+            src={img5}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -107,12 +107,12 @@ const App = () => {
     },
     {
       id: 6,
-      image: img2,
+      image: img6,
       content: (
         <>
           <p>Nome: Fair angel</p>
           <img
-            src={img2}
+            src={img6}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -124,12 +124,12 @@ const App = () => {
     },
     {
       id: 7,
-      image: "/public/Imagens/7.png",
+      image: img7,
       content: (
         <>
           <p>Nome: Lion art</p>
           <img
-            src="/public/Imagens/7.png"
+            src={img7}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -141,12 +141,12 @@ const App = () => {
     },
     {
       id: 8,
-      image: "/public/Imagens/8.png",
+      image: img8,
       content: (
         <>
           <p>Nome: Flower art</p>
           <img
-            src="/public/Imagens/8.png"
+            src={img8}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -158,12 +158,12 @@ const App = () => {
     },
     {
       id: 9,
-      image: "/public/Imagens/9.png",
+      image: img9,
       content: (
         <>
           <p>Nome: Spartan warrior</p>
           <img
-            src="/public/Imagens/9.png"
+            src={img9}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -175,12 +175,12 @@ const App = () => {
     },
     {
       id: 10,
-      image: "/public/Imagens/10.png",
+      image: img10,
       content: (
         <>
           <p>Nome: Battle Helmet</p>
           <img
-            src="/public/Imagens/10.png"
+            src={img10}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -192,12 +192,12 @@ const App = () => {
     },
     {
       id: 11,
-      image: "/public/Imagens/11.png",
+      image: img11,
       content: (
         <>
           <p>Nome: Skull in pointillism</p>
           <img
-            src="/public/Imagens/11.png"
+            src={img11}
             alt=""
             title="Click para abrir na vitrine"
           />
@@ -209,12 +209,12 @@ const App = () => {
     },
     {
       id: 12,
-      image: "/public/Imagens/12.png",
+      image: img12,
       content: (
         <>
           <p>Nome: Hannya and face</p>
           <img
-            src="/public/Imagens/12.png"
+            src={img12}
             alt=""
             title="Click para abrir na vitrine"
           />
