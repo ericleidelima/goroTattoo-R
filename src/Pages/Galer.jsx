@@ -1,3 +1,6 @@
+import Header from "../header"
+import Footer from "../Footer";
+
 import img1 from "/public/Imagens/1.png";
 
 import { useState } from "react";
@@ -7,7 +10,8 @@ const App = () => {
   const divs = [
     {
       id: 1,
-      image: "/public/Imagens/LogoGoro_1.jpg",
+      text : "Nome: Face and Spider",
+      image: "/public/Imagens/1.png",
       content: (
         <>
           <p>Nome: Face and Spider</p>
@@ -221,6 +225,7 @@ const App = () => {
   //-----------------------------------------------------------------------------
   return (
     <>
+      <Header />
       <h1>Encontre sua proxima tatuagem</h1>
 
       {/* Lista de imagens */}
@@ -233,6 +238,7 @@ const App = () => {
               alt={`Imagem ${div.id}`}
               onClick={() => handleImageClick(div.content)}
             />
+           
           ))}
         </div>
         {/* Div de exibição do conteúdo */}
@@ -246,6 +252,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
