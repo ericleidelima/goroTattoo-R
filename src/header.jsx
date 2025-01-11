@@ -1,6 +1,6 @@
 import LogoI from "/public/Icons/LogoInstag.jpg";
 import LogoF from "/public/Icons/LogoFace.jpg";
-import LogoW from "/public/icons/logoWhatsapp.png"
+import LogoW from "/public/icons/LogoFace.jpg"
 
 
 const Header = () => {
