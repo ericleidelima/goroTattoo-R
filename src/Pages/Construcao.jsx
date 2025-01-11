@@ -9,7 +9,7 @@ const Construcao = () => {
     <main >
         <article>
             <h1>estou</h1>
-              <img src="/public/Icons/EmConstrucao.jpg" />
+            
               <Footer/>
         </article>
     </main>
