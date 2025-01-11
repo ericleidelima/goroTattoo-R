@@ -16,6 +16,8 @@ import img12 from "/public/Imagens/12.png";
 
 import { useState } from "react";
 
+
+
 const App = () => {
   // Dados das divs com imagens e conteúdos
   const divs = [
@@ -234,6 +236,8 @@ const App = () => {
     setSelectedContent(content);
   };
   //-----------------------------------------------------------------------------
+
+  //-----------------------------------------------------------------------------
   return (
     <>
       <Header />
@@ -255,7 +259,7 @@ const App = () => {
         {/* Div de exibição do conteúdo */}
         <div id="container3">
           <div id="containerX">
-            {selectedContent ? (
+            { selectedContent ? (
               <p>{selectedContent}</p>
             ) : (
               <p>Clique em uma das imagem para ver sua descrição</p>

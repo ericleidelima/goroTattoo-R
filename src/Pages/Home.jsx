@@ -1,16 +1,17 @@
 import Header from "../header";
 import Footer from "../Footer";
 
-import logoGoro from "/public/Imagens/LogoGoro_1.jpg";
+import ImageWithSound from "./ImgComSom";
 
 const Home = () => {
   return (
     <>
       <Header />
       <main>
-        <picture>
+        <ImageWithSound />
+        {/*} <picture>
           {<img className="arac" src={logoGoro} alt="aranha viuva negra" />}
-        </picture>
+        </picture>*/}
 
         <aside>
           <div className="painel">
@@ -26,11 +27,11 @@ const Home = () => {
             <p>Seja modelo para um de nossos projetos.</p>
           </div>
           <div className="painel">
-            <a href="relampago.html">RELÂMPAGO</a>
-            <p>Oferta valida por pouco tempo.</p>
+            <a href="Pages/Construcao">RELÂMPAGO</a>
+            <p>Oferta valida por tempo limitado.</p>
           </div>
           <div className="painel">
-            <a href="construcao.html">LOCALIZAÇÃO, REGRAS, ETC</a>
+            <a href="Pages/Construcao">LOCALIZAÇÃO, REGRAS, ETC</a>
             <p> Desenhos pequenos.</p>
           </div>
         </aside>

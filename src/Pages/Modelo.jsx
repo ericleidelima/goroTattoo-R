@@ -25,7 +25,7 @@ const Modelo = () => {
         
       </article>
          
-       <p>  <a href="construcao.html"><p>SAIBA MAIS</p></a></p>
+       <p> <a href="/Pages/MaisInfo"><p>SAIBA MAIS</p></a></p>
 </main>
       <Footer/>
         </>
