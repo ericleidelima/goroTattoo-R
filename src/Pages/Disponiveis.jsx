@@ -1,4 +1,4 @@
-import Header from "../header"
+import Header from "../header";
 import Footer from "../Footer";
 
 import img1 from "/public/Imagens/1.png";
@@ -16,23 +16,17 @@ import img12 from "/public/Imagens/12.png";
 
 import { useState } from "react";
 
-
-
 const App = () => {
   // Dados das divs com imagens e conteúdos
   const divs = [
     {
       id: 1,
-      text : "Nome: Face and Spider",
+      text: "Nome: Face and Spider",
       image: img1,
       content: (
         <>
           <p>Nome: Face and Spider</p>
-          <img
-            src={img1} 
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img1} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray.</p>
           <p>Altura Max: 13CM.</p>
           <p>Valor: 200 R$</p>
@@ -45,11 +39,7 @@ const App = () => {
       content: (
         <>
           <p>Nome: Watercolor cat</p>
-          <img
-            src={img2}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img2} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 14CM</p>
           <p>Valor: 400 R$</p>
@@ -62,14 +52,10 @@ const App = () => {
       content: (
         <>
           <p>Nome: Face with knife</p>
-          <img
-            src={img3}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img3} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 14CM</p>
-          <p>Valor: 300 R$</p>
+          <p>Valor: 200 R$</p>
         </>
       ),
     },
@@ -79,11 +65,7 @@ const App = () => {
       content: (
         <>
           <p>Nome: Bird with leaves</p>
-          <img
-            src={img4}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img4} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 18CM</p>
           <p>Valor: 350 R$</p>
@@ -96,11 +78,7 @@ const App = () => {
       content: (
         <>
           <p>Nome: Gorila and leaves</p>
-          <img
-            src={img5}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img5} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 25 CM</p>
           <p>Valor: 450 R$</p>
@@ -113,14 +91,10 @@ const App = () => {
       content: (
         <>
           <p>Nome: Fair angel</p>
-          <img
-            src={img6}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img6} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 15CM</p>
-          <p>Valor: 300 R$</p>
+          <p>Valor: 200 R$</p>
         </>
       ),
     },
@@ -130,14 +104,10 @@ const App = () => {
       content: (
         <>
           <p>Nome: Lion art</p>
-          <img
-            src={img7}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img7} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 18CM</p>
-          <p>Valor: 270 R$</p>
+          <p>Valor: 250 R$</p>
         </>
       ),
     },
@@ -147,11 +117,7 @@ const App = () => {
       content: (
         <>
           <p>Nome: Flower art</p>
-          <img
-            src={img8}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img8} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 14CM</p>
           <p>Valor: 200 R$</p>
@@ -164,14 +130,10 @@ const App = () => {
       content: (
         <>
           <p>Nome: Spartan warrior</p>
-          <img
-            src={img9}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img9} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 19CM</p>
-          <p>Valor: 400 R$</p>
+          <p>Valor: 3500 R$</p>
         </>
       ),
     },
@@ -181,11 +143,7 @@ const App = () => {
       content: (
         <>
           <p>Nome: Battle Helmet</p>
-          <img
-            src={img10}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img10} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 18CM</p>
           <p>Valor: 450 R$</p>
@@ -198,14 +156,10 @@ const App = () => {
       content: (
         <>
           <p>Nome: Skull in pointillism</p>
-          <img
-            src={img11}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img11} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Pontilhismo</p>
           <p>Altura Max: 13CM</p>
-          <p>Valor: 250 R$</p>
+          <p>Valor: 170 R$</p>
         </>
       ),
     },
@@ -215,14 +169,16 @@ const App = () => {
       content: (
         <>
           <p>Nome: Hannya and face</p>
-          <img
-            src={img12}
-            alt=""
-            title="Click para abrir na vitrine"
-          />
+          <img src={img12} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 20CM</p>
-          <p>Valor: 700 R$</p>
+          <p>Valor: 600 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -245,28 +201,28 @@ const App = () => {
 
       {/* Lista de imagens */}
       <div id="container-principal">
-        <div id="container2" className="divToMirror">
-          {divs.map((div) => (
-            <img
-              key={div.id}
-              src={div.image}
-              alt={`Imagem ${div.id}`}
-              onClick={() => handleImageClick(div.content)}
-            />
-           
-          ))}
+        <div className="contGalery">
+          <p>Clique em um dos projetos para ver-lo na vitrine</p>
+
+          <div id="container2" className="divToMirror">
+            {divs.map((div) => (
+              <img
+                key={div.id}
+                src={div.image}
+                alt={`Imagem ${div.id}`}
+                onClick={() => handleImageClick(div.content)}
+              />
+            ))}
+          </div>
         </div>
         {/* Div de exibição do conteúdo */}
         <div id="container3">
           <div id="containerX">
-            { selectedContent ? (
-              <p>{selectedContent}</p>
-            ) : (
-              <p>Clique em uma das imagem para ver sua descrição</p>
-            )}
+            {selectedContent ? <p>{selectedContent}</p> : <p></p>}
           </div>
         </div>
       </div>
+
       <Footer />
     </>
   );

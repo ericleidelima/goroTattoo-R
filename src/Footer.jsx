@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div>
         <p>
-          &copy; 2024 <em>goro tattoo</em> todos os Direitos reservados.
+          &copy; 2025 <em>goro tattoo</em> todos os Direitos reservados.
         </p>
       </div>
     </footer>

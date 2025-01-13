@@ -6,9 +6,10 @@ import Galeria from "/src/Pages/Galeria";
 import Curiosidades from "/src/Pages/Curiosidades";
 import Modelo from "/src/Pages/Modelo";
 import Disponiveis from "/src/Pages/Disponiveis";
-
 import MaisInfo from "./Pages/MaisInfo";
 import Construcao from "./Pages/Construcao";
+
+import LocalStudi from "./Pages/LocalStudi";
 
 //import Navegacao from "./Pages/Navegacao"
 //import Promo from "./Pages/Promo";
@@ -25,8 +26,8 @@ function App() {
           <Route exact path="Pages/Modelo" element={<Modelo />} />
           <Route exact path="Pages/Disponiveis" element={<Disponiveis />} />
           <Route exact path="Pages/Construcao" element={<Construcao />} />
-
           <Route exact path="Pages/MaisInfo" element={<MaisInfo />} />
+          <Route exact path="Pages/LocalStudi" element={<LocalStudi />} />
           
         {/* <Route exact path="Promo" element={<Promo />} />
            <Route exact path="/Pages/Navegacao" element={<Navegacao />} />

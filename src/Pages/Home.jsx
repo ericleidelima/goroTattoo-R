@@ -31,8 +31,8 @@ const Home = () => {
             <p>Oferta valida por tempo limitado.</p>
           </div>
           <div className="painel">
-            <a href="Pages/Construcao">LOCALIZAÇÃO, REGRAS, ETC</a>
-            <p> Desenhos pequenos.</p>
+            <a href="Pages/LocalStudi">LOCALIZAÇÃO, ESPAÇO, ETC</a>
+            <p> Alguns detalhes.</p>
           </div>
         </aside>
       </main>

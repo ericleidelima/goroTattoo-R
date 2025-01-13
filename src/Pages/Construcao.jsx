@@ -8,8 +8,9 @@ const Construcao = () => {
     <Header/>
     <main >
         <article>
-            <h1>estou</h1>
-            
+            <h1>No momento não temos projetos disponiveis</h1>
+              <img src="/public/Icons/ss.png" alt="" />
+              <h2>Tente mais tarde</h2>
               <Footer/>
         </article>
     </main>
