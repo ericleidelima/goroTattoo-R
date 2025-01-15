@@ -109,6 +109,7 @@ h3 {
 p {
   color: rgb(161, 165, 168);
   margin: 1vw 0vw;
+  font-size: max(15px, 1vw);
 }
 
 h1:hover {
@@ -212,7 +213,6 @@ footer > nav > a {
 
 /*====================LOGO=====================*/
 .arac {
-  height: 100%;
   border-radius: 50%;
   box-shadow: 0px 0px 50px rgb(86, 70, 21);
 }
@@ -222,7 +222,7 @@ footer > nav > a {
 aside {
   margin: 1vw;
   width: 40vw;
-  max-width: 400px;
+  max-width: 70vw;
 }
 @media (max-width: 650px) {
   aside {
@@ -241,7 +241,8 @@ aside {
 }
 .painel > p {
   color: rgb(197, 191, 191);
-  font-size: max(7px, 1.5vw);
+  font-size: max(13px, 1.5vw);
+  
 }
 
 .painel > a {
@@ -298,13 +299,13 @@ aside {
     display: block;
     justify-items: center;
   }
-  #container3{
+  #container3 {
     width: 80vw;
   }
-  #container3 img{
+  #container3 img {
     width: 75vw;
   }
-  
+
   #container2 {
     margin-left: 3.5vw;
   }
@@ -488,4 +489,18 @@ button {
 
 button:hover {
   background-color: rgb(58, 92, 20);
+/*==========================================*/
+}
+.study{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(196, 65, 5, 0.651);
+  margin: 1vw;
+}
+.study img {
+  box-shadow: 0px 0px 20px rgba(148, 196, 5, 0.508);
+  width: 27.5vw;
+  margin: 1vw;
+  
 }

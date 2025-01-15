@@ -15,15 +15,20 @@ const LocalStudi = () => {
           <p>
             <ol>
               <li>
-                Chegue preparado Chegue no horário combinado e, se possível, bem
-                descansado e alimentado. <br /> Evite consumir álcool ou drogas
-                antes da sessão.
+                Chegue preparado:
+                <br />
+                Chegue no horário combinado e, se possível, bem descansado e
+                alimentado.
+                <br />
+                Evite consumir álcool ou drogas antes da sessão.
               </li>
               <br />
               <br />
               <li>
-                Higiene pessoal Vá ao estúdio com a área da tatuagem limpa e sem
-                produtos químicos ou cremes
+                Higiene pessoal:
+                <br />
+                Vá ao estúdio com a área da tatuagem limpa e sem produtos
+                químicos ou cremes.
               </li>
               <br />
               <br />
@@ -34,7 +39,7 @@ const LocalStudi = () => {
               </li>
               <br />
               <br />
-              
+
               <li>
                 Cuidados pós-tatuagem Siga rigorosamente as orientações do
                 artista sobre os cuidados após a tatuagem. <br /> Comunique
@@ -50,10 +55,34 @@ const LocalStudi = () => {
             </ol>
           </p>
 
-         
           <h2>Como é o nosso espaço</h2>
+          <h3>Sala de procedimento</h3>
+          <div className="study">
+            <img src="/public/icons/Study1.jpg" alt="" />
+            <img src="/public/icons/Study2.jpg" alt="" />
+            <img src="/public/icons/Study3.jpg" alt="" />
 
-          <p></p>
+            <video width="600px" controls>
+              <source src="/public/Videos/Study1.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <h3>sala de espera</h3>
+          <div className="study">
+            <img src="/public/icons/Study4.jpg" alt="" />
+            <img src="/public/icons/Study5.jpg" alt="" />
+            <img src="/public/icons/Study6.jpg" alt="" />
+            <img src="/public/icons/Study7.jpg" alt="" />
+            <img src="/public/icons/Study8.jpg" alt="" />
+
+            <video width="600px" controls>
+              <source src="/public/Videos/Study1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <p>
+            Sala de spera com wifi e telão com mais de 150 polegadas, para o
+            acampanhante ficar confortavelmente.
+          </p>
         </article>
       </main>
       <Footer />

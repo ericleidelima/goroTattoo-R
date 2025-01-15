@@ -30,6 +30,12 @@ const App = () => {
           <p>Estilo: Black and Gray.</p>
           <p>Altura Max: 13CM.</p>
           <p>Valor: 200 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -43,6 +49,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 14CM</p>
           <p>Valor: 400 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -56,6 +68,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 14CM</p>
           <p>Valor: 200 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -69,6 +87,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 18CM</p>
           <p>Valor: 350 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -82,6 +106,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 25 CM</p>
           <p>Valor: 450 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -95,6 +125,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 15CM</p>
           <p>Valor: 200 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -108,6 +144,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 18CM</p>
           <p>Valor: 250 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -121,6 +163,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 14CM</p>
           <p>Valor: 200 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -134,6 +182,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 19CM</p>
           <p>Valor: 3500 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -147,6 +201,12 @@ const App = () => {
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 18CM</p>
           <p>Valor: 450 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
@@ -160,6 +220,12 @@ const App = () => {
           <p>Estilo: Pontilhismo</p>
           <p>Altura Max: 13CM</p>
           <p>Valor: 170 R$</p>
+
+          <h4>
+            <a href="/Pages/MaisInfo">
+              <p>SAIBA MAIS</p>
+            </a>
+          </h4>
         </>
       ),
     },
