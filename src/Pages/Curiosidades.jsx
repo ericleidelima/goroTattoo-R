@@ -1,7 +1,8 @@
 import Header from "../header";
 import Footer from "../Footer";
 
-import imgThomas from "/public/Imagens/ThomasEdison.jpg"
+import imgThomas from "/public/Imagens/ThomasEdison.jpg";
+import videoSlow from "/public/videos/Tattoo Ink Needle in Super Slow.mp4.mp4";
 
 const Curiosidades = () => {
   return (
@@ -58,7 +59,7 @@ const Curiosidades = () => {
 
           <video id="video" controls autoPlay muted loop>
             <source
-              src="/public/videos/Tattoo Ink Needle in Super Slow.mp4.mp4"
+              src={videoSlow}
               type="video/mp4"
             />
             <p>Desculpe, seu navegador não supota os fosmatos de video.</p>

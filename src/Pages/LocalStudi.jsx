@@ -12,6 +12,7 @@ import Study7 from "/public/Icons/Study7.png";
 import Study8 from "/public/Icons/Study8.png";
 
 import video1Study from "/public/Videos/Study1.mp4";
+import video2Study from "/public/Videos/Study1.mp4";
 
 const LocalStudi = () => {
   return (
@@ -87,7 +88,7 @@ const LocalStudi = () => {
             <img src={Study8} alt="" />
 
             <video width="600px" controls>
-              <source src="/public/Videos/Study1.mp4" type="video/mp4" />
+              <source src={video2Study} type="video/mp4" />
             </video>
           </div>
           <p>
