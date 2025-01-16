@@ -1,7 +1,7 @@
 import Header from "../header";
 import Footer from "../Footer";
 import Local from "/public/Icons/Localização.png";
-import Study1 from "/public/icons/Study1.png"
+import Study1 from "/public/Icons/Study1.png"
 
 const LocalStudi = () => {
   return (
