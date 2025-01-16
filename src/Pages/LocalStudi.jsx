@@ -11,6 +11,8 @@ import Study6 from "/public/Icons/Study6.png";
 import Study7 from "/public/Icons/Study7.png";
 import Study8 from "/public/Icons/Study8.png";
 
+import video1Study from "/public/Videos/Study1.mp4";
+
 const LocalStudi = () => {
   return (
     <>
@@ -72,7 +74,7 @@ const LocalStudi = () => {
             <img src={Study3} alt="" />
 
             <video width="600px" controls>
-              <source src="/public/Videos/Study1.mp4" type="video/mp4" />
+              <source src={video1Study} type="video/mp4" />
             </video>
           </div>
 
