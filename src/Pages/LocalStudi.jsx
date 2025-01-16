@@ -8,8 +8,8 @@ import Study3 from "/public/Icons/Study3.png";
 import Study4 from "/public/Icons/Study4.png";
 import Study5 from "/public/Icons/Study5.png";
 import Study6 from "/public/Icons/Study6.png";
-import Study7 from "/public/Icons/Study6.png";
-import Study8 from "/public/Icons/Study6.png";
+import Study7 from "/public/Icons/Study7.png";
+import Study8 from "/public/Icons/Study8.png";
 
 const LocalStudi = () => {
   return (
