@@ -1,8 +1,7 @@
 import Header from "../header";
 import Footer from "../Footer";
 import Local from "/public/Icons/Localização.png";
-
-
+import Study1 from "/public/icons/Study1.png"
 
 const LocalStudi = () => {
   return (
@@ -60,7 +59,7 @@ const LocalStudi = () => {
           <h2>Como é o nosso espaço</h2>
           <h3>Sala de procedimento</h3>
           <div className="study">
-            <img src="/public/icons/Study1.png" alt="" />
+            <img src={Study1} alt="" />
             <img src="/public/icons/Study2.jpg" alt="" />
             <img src="/public/icons/Study3.jpg" alt="" />
 
