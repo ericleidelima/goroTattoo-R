@@ -1,7 +1,15 @@
 import Header from "../header";
 import Footer from "../Footer";
 import Local from "/public/Icons/Localização.png";
-import Study1 from "/public/Icons/Study1.png"
+
+import Study1 from "/public/Icons/Study1.png";
+import Study2 from "/public/Icons/Study2.png";
+import Study3 from "/public/Icons/Study3.png";
+import Study4 from "/public/Icons/Study4.png";
+import Study5 from "/public/Icons/Study5.png";
+import Study6 from "/public/Icons/Study6.png";
+import Study7 from "/public/Icons/Study6.png";
+import Study8 from "/public/Icons/Study6.png";
 
 const LocalStudi = () => {
   return (
@@ -60,8 +68,8 @@ const LocalStudi = () => {
           <h3>Sala de procedimento</h3>
           <div className="study">
             <img src={Study1} alt="" />
-            <img src="/public/icons/Study2.jpg" alt="" />
-            <img src="/public/icons/Study3.jpg" alt="" />
+            <img src={Study2} alt="" />
+            <img src={Study3} alt="" />
 
             <video width="600px" controls>
               <source src="/public/Videos/Study1.mp4" type="video/mp4" />
@@ -70,11 +78,11 @@ const LocalStudi = () => {
 
           <h3>sala de espera</h3>
           <div className="study">
-            <img src="/public/icons/Study4.jpg" alt="" />
-            <img src="/public/icons/Study5.jpg" alt="" />
-            <img src="/public/icons/Study6.jpg" alt="" />
-            <img src="/public/icons/Study7.jpg" alt="" />
-            <img src="/public/icons/Study8.jpg" alt="" />
+            <img src={Study4} alt="" />
+            <img src={Study5} alt="" />
+            <img src={Study6} alt="" />
+            <img src={Study7} alt="" />
+            <img src={Study8} alt="" />
 
             <video width="600px" controls>
               <source src="/public/Videos/Study1.mp4" type="video/mp4" />
