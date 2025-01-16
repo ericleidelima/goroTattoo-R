@@ -11,8 +11,8 @@ import Study6 from "/public/Icons/Study6.png";
 import Study7 from "/public/Icons/Study7.png";
 import Study8 from "/public/Icons/Study8.png";
 
-import video1Study from "/public/Videos/Study1.mp4";
-import video2Study from "/public/Videos/Study2.mp4";
+import video1Study from "/public/Videos/video1Study.mp4";
+import video2Study from "/public/Videos/video2Study.mp4";
 
 const LocalStudi = () => {
   return (
