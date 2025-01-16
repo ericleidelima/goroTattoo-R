@@ -2,7 +2,7 @@ import Header from "../header";
 import Footer from "../Footer";
 
 import imgThomas from "/public/Imagens/ThomasEdison.jpg";
-import videoSlow from "/public/videos/TattooSlowMotion.mp4";
+import videoSlow from "/public/Videos/TattooSlowMotion.mp4";
 
 const Curiosidades = () => {
   return (
