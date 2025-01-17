@@ -7,9 +7,12 @@ import Study2 from "/public/Icons/Study2.png";
 import Study3 from "/public/Icons/Study3.png";
 import Study4 from "/public/Icons/Study4.png";
 import Study5 from "/public/Icons/Study5.png";
+
 import Study6 from "/public/Icons/Study6.png";
 import Study7 from "/public/Icons/Study7.png";
 import Study8 from "/public/Icons/Study8.png";
+import Study9 from "/public/Icons/Study9.png";
+import Study10 from "/public/Icons/Study10.png";
 
 import video1Study from "/public/Videos/video1Study.mp4";
 import video2Study from "/public/Videos/video2Study.mp4";
@@ -73,6 +76,9 @@ const LocalStudi = () => {
             <img src={Study1} alt="" />
             <img src={Study2} alt="" />
             <img src={Study3} alt="" />
+            <img src={Study4} alt="" />
+            <img src={Study5} alt="" />
+            
 
             <video width="600px" controls>
               <source src={video1Study} type="video/mp4" />
@@ -80,21 +86,22 @@ const LocalStudi = () => {
           </div>
 
           <h3>sala de espera</h3>
+          <p>
+            Sala de spera com wifi e telão com mais de 150 polegadas, para o
+            acampanhante ficar confortavelmente.
+          </p>
           <div className="study">
-            <img src={Study4} alt="" />
-            <img src={Study5} alt="" />
             <img src={Study6} alt="" />
             <img src={Study7} alt="" />
             <img src={Study8} alt="" />
+            <img src={Study9} alt="" />
+            <img src={Study10} alt="" />
 
             <video width="600px" controls>
               <source src={video2Study} type="video/mp4" />
             </video>
           </div>
-          <p>
-            Sala de spera com wifi e telão com mais de 150 polegadas, para o
-            acampanhante ficar confortavelmente.
-          </p>
+          
         </article>
       </main>
       <Footer />

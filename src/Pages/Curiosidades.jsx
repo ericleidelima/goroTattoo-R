@@ -11,7 +11,7 @@ const Curiosidades = () => {
       <main>
         <article>
           <h1>Curiosidades</h1>
-          <hr />
+          <br />
           <h2>A história da máquina de tatuagem</h2>
           <img src={imgThomas}/>
 
@@ -20,7 +20,7 @@ const Curiosidades = () => {
             carregam o mesmo estigma social que costumavam ter. Mas nem sempre
             usamos as máquinas de tatuagem que você vê em seu salão padrão.
           </p>
-          <hr />
+          <br/>
           <h2>História e Patentes</h2>
 
           <p>
@@ -35,7 +35,7 @@ const Curiosidades = () => {
             copiados. A caneta elétrica foi um fracasso. A máquina de tatuagem
             foi um sucesso mundial não qualificado.
           </p>
-          <hr />
+          <br/>
           <h2>Como funciona</h2>
 
           <p>

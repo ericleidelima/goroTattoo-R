@@ -13,7 +13,7 @@ const EstilosTattoo = () => {
         <article>
           <h1>Estilos de tattoo</h1>
           <h1>Preto e cinza</h1>
-          <hr />
+          <br/>
          <img src={tattooRealista} alt="tattoo realista" />
 
           <p>
@@ -39,7 +39,7 @@ const EstilosTattoo = () => {
             cabeça, animais com asas, relógios e caveiras juntos e etc. — Ganso
             Galvão (tatuador premiado no Rio de Janeiro, Niterói e Austrália).
           </p>
-          <hr />
+          <br/>
           <h2>Rastelado</h2>
 
           <img src={tattooRastelada} alt="tattoos rastelada" />
@@ -78,7 +78,7 @@ const EstilosTattoo = () => {
             para criar linhas e pontos perfeitos.
           </p>
 
-          <hr />
+          <br/>
           <h2>Pontilhismo</h2>
 
          <img
