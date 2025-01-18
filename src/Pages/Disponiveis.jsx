@@ -181,7 +181,7 @@ const App = () => {
           <img src={img9} alt="" title="Click para abrir na vitrine" />
           <p>Estilo: Black and Gray</p>
           <p>Altura Max: 19CM</p>
-          <p>Valor: 3500 R$</p>
+          <p>Valor: 350 R$</p>
 
           <h4>
             <a href="/Pages/MaisInfo">
