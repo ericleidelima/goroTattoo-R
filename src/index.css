@@ -437,6 +437,7 @@ article > p {
   margin: 0.5em;
   color: rgb(255, 255, 255);
   font-size: max(16px, 1.5vw);
+
 }
 
 article > p:first-letter {
