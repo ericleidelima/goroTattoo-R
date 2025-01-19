@@ -173,10 +173,9 @@ nav.sociais {
 }
 
 img {
-  width: 45vw;
+  width: 80vw;
   max-width: 650px;
-  margin: auto;
-  display: flex; /*verificar*/
+  
 }
 
 /*============================================= RODAPÉ ===========================*/
@@ -418,16 +417,17 @@ article {
   box-shadow: 0px 0px 20px rgba(132, 197, 57, 0.486);
   border-radius: 10px;
   display: grid;
-  justify-items: center;
-  width: 90%;
+  /*justify-items: center;*/
+  width: 98%;
   margin: 0%;
+  padding: 1vw;
 }
 
 article > img {
   margin: 15px 10px;
   border-radius: 10px;
-  margin: 1em;
-  float: left; /*verificar*/
+  margin: auto;
+  
   box-shadow: 0px 0px 20px rgba(196, 65, 5, 0.651);
 }
 article > img:hover {
@@ -437,7 +437,6 @@ article > p {
   margin: 0.5em;
   color: rgb(255, 255, 255);
   font-size: max(16px, 1.5vw);
-
 }
 
 article > p:first-letter {
