@@ -8,8 +8,11 @@ const MaisInfo = () => {
       <main className="model">
         <aside>
           <p>
-            Para os interessados nesse projeto entre em contato pelo watsap ou
-            pelo direct do instagram.
+          Se você tem interesse neste projeto e gostaria de saber mais, 
+          estamos à disposição para esclarecer todas as suas dúvidas. 
+          Entre em contato conosco pelo WhatsApp ou através do direct do 
+          Instagram. Será um prazer conversar com você e fornecer mais 
+          informações!
           </p>
         </aside>
       </main>
