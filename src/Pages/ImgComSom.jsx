@@ -3,7 +3,7 @@ import logoGoro from "/public/Imagens/LogoGoro_1.jpg";
 const ImageWithSound = () => {
   // Função que toca o som
   const playSound = () => {
-    const audio = new Audio('/public/Icons/Videos/off6.mp3'); // O caminho do arquivo de áudio
+    const audio = new Audio('/public//Videos/off6.mp3'); // O caminho do arquivo de áudio
     audio.play(); // Toca o áudio
   };
 

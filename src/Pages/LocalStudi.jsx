@@ -79,8 +79,9 @@ const LocalStudi = () => {
 
           <h3>sala de espera</h3>
           <p>
-            Sala de espera com Wi-Fi e telão com mais de 150 polegadas (aprox. 4
-            m), para o acompanhante ficar confortavelmente.
+           Sala de espera equipada com Wi-Fi e telão de 150 polegadas 
+           (aproximadamente 4 metros), proporcionando conforto e entretenimento 
+           para o acompanhante.
           </p>
           <div className="study">
             <img src={Study6} alt="" />
