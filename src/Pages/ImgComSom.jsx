@@ -15,7 +15,6 @@ const ImageWithSound = () => {
         src={logoGoro}
         alt="Imagem clicável"
         onClick={playSound} // Quando clicada, chama a função playSound
-        style={{ width: "300px", cursor: "pointer" }}
       />
     </div>
   );
