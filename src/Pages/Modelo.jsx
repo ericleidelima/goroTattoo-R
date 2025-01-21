@@ -14,7 +14,7 @@ const Modelo = () => {
       <main className="model">
         <article>
           <img src={imgJason} alt="Projeto Jason" />
-          <p>
+          
             <p>
               &nbsp; &nbsp;O projeto será realizado em REALISMO BLACK AND GRAY
               Uma verdadeira obra de arte, esse projeto pode na realização da
@@ -32,7 +32,7 @@ const Modelo = () => {
               artistico do mesmo, o valor total e outras informações estão na
               descrição, clique em SAIBA MAIS e leia atenciosamente.
             </p>
-          </p>
+          
         </article>
 
         <p>
